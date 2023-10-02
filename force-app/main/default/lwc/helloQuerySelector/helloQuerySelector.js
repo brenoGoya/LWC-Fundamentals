@@ -15,6 +15,12 @@ export default class HelloQuerySelector extends LightningElement {
 
         Array.from(userElements).forEach(item => {
             console.log(item.innerText)
+            item.setAttribute("title", item.innerText)
         })
+
+        // lwc:manual demo
+
+        const childElem = this.template.querySelector('.child')
+        childElem.innerHTML = '<p>Hey I am a child element</p>'
     }
 }
