@@ -7,12 +7,14 @@ export default class HelloQuerySelector extends LightningElement {
     fetchDetailHandler() {
         const elem = this.template.querySelector('h1')
 
-        const userElements = this.template.querySelectorAll('.name')
-
+        elem.style.border = "1px solid red"
+        
         console.log(elem.innerText)
+
+        const userElements = this.template.querySelectorAll('.name')
 
         Array.from(userElements).forEach(item => {
             console.log(item.innerText)
-        });
+        })
     }
 }
