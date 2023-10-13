@@ -3,6 +3,10 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>Zero to Hero in LWC</label>
     <tabSettings>
+        <tab>Lifecycles_Hooks</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>Zero_to_Hero_in_LWC</tab>
         <visibility>Visible</visibility>
     </tabSettings>
