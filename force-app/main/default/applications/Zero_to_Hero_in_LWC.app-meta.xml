@@ -12,6 +12,7 @@
     <label>Zero to Hero in LWC</label>
     <navType>Standard</navType>
     <tabs>Lifecycles_Hooks</tabs>
+    <tabs>Zero_to_Hero_in_LWC</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Zero_to_Hero_in_LWC_UtilityBar</utilityBar>
 </CustomApplication>
